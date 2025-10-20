@@ -7,11 +7,6 @@ import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Inovasi Digital - Solusi Teknologi',
-  description: 'Website company profile Inovasi Digital',
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
